@@ -69,7 +69,7 @@
         android:fontFamily="@font/roboto"
         android:textColorHint="@color/white"
         android:textSize="24sp"
-        android:inputType="number"
+        android:inputType="numberDecimal"
         android:drawableStart="@drawable/altura"
         android:drawableTint="@color/white"
         android:drawablePadding="5dp"/>
@@ -92,7 +92,6 @@
         android:id="@+id/resultado"
         android:layout_width="165dp"
         android:layout_height="165dp"
-        android:text="21.9"
         android:layout_marginTop="10dp"
         android:layout_gravity="center"
         android:textColor="@color/white"
